@@ -1,26 +1,26 @@
 <?php
 
-require_once 'vendor/autoload.php';
-use models\{Conexion};
-$rand = new Conexion('localhost', 'root', '', 'random');
+// require_once 'vendor/autoload.php';
+// use models\{Conexion};
+// $rand = new Conexion('localhost', 'root', '', 'random');
 
 $personas = [
-    'Fran' => 1,
-    'Jaume' => 2,
-    'Jose' => 3,
-    'Lolo' => 4,
-    'Adrian' => 5,
-    'Julia' => 6,
-    'Jorge' => 7,
-    'Cristian' => 8,
-    'Mateo' => 9,
-    'Alexis' => 10,
-    'Petro' => 11,
-    'Alejandro' => 12,
-    'Jordi' => 13,
-    'Toni' => 14,
-    'David' => 15,
-    'Luis' => 16
+    'Fran' ,
+    'Jaume' ,
+    'Jose' ,
+    'Lolo' ,
+    'Adrian' ,
+    'Julia' ,
+    'Jorge' ,
+    'Cristian' ,
+    'Mateo' ,
+    'Alexis' ,
+    'Petro' ,
+    'Alejandro' ,
+    'Jordi' ,
+    'Toni' ,
+    'David' ,
+    'Luis' 
 ];
 
 foreach($personas as $valor){
@@ -45,11 +45,7 @@ foreach($personas as $valor){
 
 <!-- HEADER -->
     <header>
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
+     
     </header>
 
 <!-- SECTION -->
